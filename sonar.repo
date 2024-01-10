@@ -1,0 +1,20 @@
+[sonar]
+name=Sonar
+baseurl=http://downloads.sourceforge.net/project/sonar-pkg/rpm
+gpgcheck=0
+
+Sonar Token -   5f20dfd9768698f9c0656a79b08a73943b21a83a
+
+sonar.projectKey=HelloWorldServlet
+sonar.projectname=HelloWorldServlet
+sonar.projectversion=1.0
+sonar.sources=/var/lib/jenkins/workspace/Job-1
+#sonar.java.binaries=/var/lib/jenkins/workspace/Job-1/target/classes/
+sonar.java.binaries=/var/lib/jenkins/workspace/Job-1
+
+
+sonar.projectKey=Jenkins-Sonar-Docker
+sonar.projectname=Jenkins-Sonar-Docker
+sonar.projectversion=1.0
+sonar.sources=/var/lib/jenkins/workspace/Jenkins-Sonar-Docker
+sonar.java.binaries=/var/lib/jenkins/workspace/Jenkins-Sonar-Docker
